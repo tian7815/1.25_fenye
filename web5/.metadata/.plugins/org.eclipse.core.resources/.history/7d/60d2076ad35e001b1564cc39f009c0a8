@@ -1,0 +1,12 @@
+package com.company.dao;
+
+import java.util.List;
+
+import com.company.entity.User;
+
+public interface Userdao {
+	public User quaryUserByuid(String uid)throws Exception;
+	public String stuLogin (String uid)throws Exception;
+	//offset为偏移量,len数据长度
+	public List<User> selectPage(int offset, int len) throws Exception;
+}

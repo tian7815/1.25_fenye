@@ -1,0 +1,12 @@
+package com.company.DaoImpl;
+
+import com.company.Dao.UserDao;
+
+public class UserDaoImpl implements UserDao {
+
+	public int generalCUD(String sql, Object... args) throws Exception {
+		
+		return 0;
+	}
+
+}

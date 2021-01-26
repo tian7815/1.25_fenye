@@ -1,0 +1,8 @@
+package com.company.service;
+
+import com.company.entity.User;
+
+public interface UserService {
+  public User quaryUserByuid(String uid)throws Exception;
+  public String stuLogin (String uid)throws Exception;
+}

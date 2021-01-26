@@ -1,0 +1,24 @@
+#Mon Jan 25 09:53:18 CST 2021
+tomcat7Server.Web5.isUptoDate=true
+tomcat7Server.Web5.deploymentPath=D\:\\Tomcat\\webapps\\Web5
+tomcat7Server.Web5.isExploded=true
+tomcat7Server.Web5.shouldOverwrite=false
+eclipse.preferences.version=1
+tomcat7Server.Web5.IEARProjectName=
+tomcat7Server.Day08.IEARProjectName=
+tomcat7Server.Day08.isExploded=true
+tomcat7Server.Day08.deploymentPath=D\:\\Tomcat\\webapps\\Day08
+tomcat7Server.Web5.isDeployed=true
+tomcat7Server.Day08.contextRoot=/Day08
+tomcat7Server.Day08.type=WebDeployment
+tomcat7Server.Day08.isDeployed=true
+tomcat7Server.Web5.shouldBackup=false
+tomcat7Server.Day08.deployIsOverProject=false
+tomcat7Server.Day08.shouldBackup=false
+tomcat7Server.Day08.isUptoDate=true
+tomcat7Server.Day08.shouldOverwrite=false
+tomcat7Server.Web5.deployIsOverProject=false
+tomcat7Server.Day08.altContextRoot=
+tomcat7Server.Web5.contextRoot=/Web5
+tomcat7Server.Web5.type=WebDeployment
+tomcat7Server.Web5.altContextRoot=

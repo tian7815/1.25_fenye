@@ -1,0 +1,21 @@
+package com.company.service;
+
+import com.company.dao.Userdao;
+import com.company.dao.UserdaoImpl;
+import com.company.entity.User;
+
+public class UserServiceImpl implements UserService {
+
+	public User quaryUserByuid(String uid) throws Exception {
+		Userdao userdao = new UserdaoImpl();
+		User quaryUserByuid = userdao.quaryUserByuid(uid);
+		return quaryUserByuid;
+	}
+
+	public String stuLogin(String uid) throws Exception {
+		Userdao userdao = new UserdaoImpl();
+		String pwd = userdao.stuLogin(uid);
+		return pwd;
+	}
+
+}

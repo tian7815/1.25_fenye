@@ -1,0 +1,7 @@
+package com.company.Dao;
+
+
+public interface UserDao {
+	//通用增删改
+	public int generalCUD(String sql, Object...args)throws Exception;
+}

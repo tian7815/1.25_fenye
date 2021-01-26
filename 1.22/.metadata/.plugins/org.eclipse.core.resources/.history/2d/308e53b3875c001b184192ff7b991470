@@ -1,0 +1,17 @@
+package com.company.DaoImpl;
+
+import java.sql.Connection;
+
+import com.company.Dao.UserDao;
+import com.company.Utility.Utility;
+
+public class UserDaoImpl implements UserDao {
+
+	public int generalCUD(String sql, Object... args) throws Exception {
+		Connection conn = Utility.connMysql();
+		int executeObject = Utility.executeObject(conn, sql, args);
+		
+		return 0;
+	}
+
+}

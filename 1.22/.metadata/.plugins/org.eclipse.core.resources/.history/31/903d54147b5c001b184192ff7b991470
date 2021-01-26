@@ -1,0 +1,11 @@
+package com.company.Dao;
+
+import javax.xml.registry.infomodel.User;
+
+public interface UserDao {
+	//添加用户
+	public int insert(User uer)throws Exception;
+	//删除用户
+	//修改用户信息
+	//查询用户
+}

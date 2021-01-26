@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" environment="org.eclipse.dltk.core.environment.localEnvironment">
+  <entries path="C:/Users/Administrator/Desktop/web5/Web5/WebRoot/Users.jsp" timestamp="1611280203791" lastAccessTime="1611280204300"/>
+  <entries path="C:/Users/Administrator/Desktop/web5/Web5/WebRoot/queryuser.jsp" timestamp="1611282464359" lastAccessTime="1611282464865"/>
+  <entries path="C:/Users/Administrator/Desktop/web5/Web5/WebRoot/index.jsp" timestamp="1611284640342" lastAccessTime="1611284640848"/>
+  <entries path="C:/Users/Administrator/Desktop/web5/Web5/WebRoot/QueryAll.jsp" timestamp="1611285704814" lastAccessTime="1611285705316"/>
+  <entries path="C:/Users/Administrator/Desktop/web5/Web5/WebRoot/WEB-INF/jsp/User.jsp" timestamp="1611286354290" lastAccessTime="1611286354804"/>
+  <entries path="C:/Users/Administrator/Desktop/web5/Day08/WebRoot/index.jsp" timestamp="1611536918688" lastAccessTime="1611536919624"/>
+  <entries path="C:/Users/Administrator/Desktop/web5/Day08/WebRoot/quaryUser.jsp" timestamp="1611539821395" lastAccessTime="1611539822135"/>
+  <entries path="C:/Users/Administrator/Desktop/web5/Day08/WebRoot/StuLoginPage.jsp" timestamp="1611541686116" lastAccessTime="1611541686750"/>
+  <entries path="C:/Users/Administrator/Desktop/web5/Day08/WebRoot/Admin.jsp" timestamp="1611543013075" lastAccessTime="1611543013722"/>
+  <entries path="C:/Users/Administrator/Desktop/web5/Day08/WebRoot/WEB-INF/jsp/FenYe.jsp" timestamp="1611557241248" lastAccessTime="1611557241873"/>
+</cache:CacheIndex>

@@ -1,0 +1,22 @@
+package com.company.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+import com.company.entity.User;
+import com.mysql.jdbc.PreparedStatement;
+
+public class UserdaoImpl implements Userdao {
+	public static final String URL = "jdbc:mysql://localhost:3306/mydb?characterEncoding=utf-8";
+	public static final String USER = "root";
+	public static final String PWD = "123456";
+	
+	public User quaryUserByuid(User uid) throws Exception {
+		Class.forName("com.mysql.jdbc.Driver");
+		Connection connection = DriverManager.getConnection(URL, USER, PWD);
+		String sql = "select * from student where sid = ?";	
+		PreparedStatement ps = connection.prepareStatement(sql);
+		return null;
+	}
+
+}

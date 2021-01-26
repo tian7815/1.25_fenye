@@ -1,0 +1,1837 @@
+!SESSION 2021-01-22 10:33:45.763 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2021-01-22 10:34:03.882
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-22 10:34:03.882
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@741322,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 10:34:06.539
+!MESSAGE NLS unused message: prompt.optclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 10:34:06.544
+!MESSAGE NLS unused message: prompt.preclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 10:34:06.549
+!MESSAGE NLS unused message: prompt.optlibrarypath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY com.genuitec.eclipse.core 1 0 2021-01-22 10:34:06.957
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 10:34:07.236
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 10:34:07.299
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 10:34:07.337
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 10:34:07.392
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 10:34:07.479
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 10:34:07.552
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 10:34:07.625
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 10:34:07.736
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 10:34:07.826
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 10:34:07.910
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 10:34:07.979
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.maven.ide.eclipse 4 0 2021-01-22 10:34:39.609
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Transfer for nexus-maven-repository-index.properties failed; Transfer failed: [501] http://repo1.maven.org/maven2/.index/nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:693)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.xml.core 4 4 2021-01-22 10:34:51.331
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.createCommentElement(XMLModelParser.java:707)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.insertComment(XMLModelParser.java:912)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.insertStructuredDocumentRegion(XMLModelParser.java:1459)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.replaceStructuredDocumentRegions(XMLModelParser.java:2287)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.internalSetNewDocument(DOMModelImpl.java:595)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.setStructuredDocument(DOMModelImpl.java:870)
+	at org.eclipse.wst.sse.core.internal.model.AbstractModelLoader.createModel(AbstractModelLoader.java:127)
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.getModel(FileBufferModelManager.java:721)
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.getModel(FileBufferModelManager.java:681)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl._doCommonGetModel(ModelManagerImpl.java:569)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl._commonGetModel(ModelManagerImpl.java:536)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl._commonGetModel(ModelManagerImpl.java:509)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.getModelForRead(ModelManagerImpl.java:1438)
+	at org.eclipse.wst.sse.core.internal.validate.ValidatorGroupListener.validationStarting(ValidatorGroupListener.java:72)
+	at org.eclipse.wst.validation.internal.ValManager$2.run(ValManager.java:880)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.validation.internal.ValManager.notifyGroupListenersStarting(ValManager.java:878)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:833)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:699)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:300)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:108)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:60)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:70)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:106)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:90)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:218)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:177)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:125)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.xml.core 4 4 2021-01-22 10:38:58.284
+!MESSAGE 
+!STACK 0
+org.w3c.dom.DOMException: 
+	at org.eclipse.wst.xml.core.internal.document.ElementImpl.insertBefore(ElementImpl.java:690)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.insertNode(XMLModelParser.java:1309)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.insertNode(XMLModelParser.java:1283)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.insertText(XMLModelParser.java:1526)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.insertStructuredDocumentRegion(XMLModelParser.java:1477)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.replaceStructuredDocumentRegions(XMLModelParser.java:2287)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.nodesReplaced(DOMModelImpl.java:671)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireEvent(BasicStructuredDocument.java:597)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1195)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1976)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2416)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2401)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:137)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:147)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:144)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replace(BasicStructuredDocument.java:2361)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$0(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$1.run(JobSafeStructuredDocument.java:88)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:147)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replace(JobSafeStructuredDocument.java:95)
+	at org.eclipse.jface.text.projection.ProjectionTextStore.replace(ProjectionTextStore.java:111)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1150)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1176)
+	at org.eclipse.jface.text.projection.ProjectionDocument.replace(ProjectionDocument.java:630)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.replaceTextRange(DefaultDocumentAdapter.java:248)
+	at org.eclipse.swt.custom.StyledText.handleCompositionChanged(StyledText.java:5695)
+	at org.eclipse.swt.custom.StyledText$8.handleEvent(StyledText.java:5566)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.IME.WM_IME_COMPOSITION(IME.java:505)
+	at org.eclipse.swt.widgets.Canvas.WM_IME_COMPOSITION(Canvas.java:369)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3971)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:2976)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3498)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.wst.xml.core 4 4 2021-01-22 10:38:58.943
+!MESSAGE 
+!STACK 0
+org.w3c.dom.DOMException: 
+	at org.eclipse.wst.xml.core.internal.document.ElementImpl.insertBefore(ElementImpl.java:690)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.insertNode(XMLModelParser.java:1309)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.insertNode(XMLModelParser.java:1283)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.insertText(XMLModelParser.java:1526)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.insertStructuredDocumentRegion(XMLModelParser.java:1477)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.replaceStructuredDocumentRegions(XMLModelParser.java:2287)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.nodesReplaced(DOMModelImpl.java:671)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireEvent(BasicStructuredDocument.java:597)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1195)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1976)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2416)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2401)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:137)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:147)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:144)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replace(BasicStructuredDocument.java:2361)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$0(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$1.run(JobSafeStructuredDocument.java:88)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:147)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replace(JobSafeStructuredDocument.java:95)
+	at org.eclipse.jface.text.projection.ProjectionTextStore.replace(ProjectionTextStore.java:111)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1150)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1176)
+	at org.eclipse.jface.text.projection.ProjectionDocument.replace(ProjectionDocument.java:630)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.replaceTextRange(DefaultDocumentAdapter.java:248)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:6637)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:7446)
+	at org.eclipse.swt.custom.StyledText.doContent(StyledText.java:2442)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:5817)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5842)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(StyledText.java:5542)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.IME.WM_IME_COMPOSITION(IME.java:402)
+	at org.eclipse.swt.widgets.Canvas.WM_IME_COMPOSITION(Canvas.java:369)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3971)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:2976)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3498)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.ui 4 0 2021-01-22 10:48:28.515
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.IllegalArgumentException: Argument not valid Element type "a" must be followed by either attribute specifications, ">" or "/>".)
+	at org.eclipse.swt.SWT.error(SWT.java:3884)
+	at org.eclipse.swt.SWT.error(SWT.java:3799)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:137)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3885)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3506)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+Caused by: java.lang.IllegalArgumentException: Argument not valid Element type "a" must be followed by either attribute specifications, ">" or "/>".
+	at org.eclipse.swt.SWT.error(SWT.java:3865)
+	at org.eclipse.ui.internal.forms.widgets.FormTextModel.parseInputStream(FormTextModel.java:133)
+	at org.eclipse.ui.internal.forms.widgets.FormTextModel.parseTaggedText(FormTextModel.java:111)
+	at org.eclipse.ui.forms.widgets.FormText.setText(FormText.java:673)
+	at com.genuitec.pulse.client.contrib.ui.provisional.blueprint.RSSFeedSectionPart.showFeed(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.provisional.blueprint.RSSFeedSectionPart$2$1.run(Unknown Source)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:155)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:158)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	... 22 more
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2021-01-22 11:13:46.922
+!MESSAGE Server returned lastModified <= 0 for http://downloads.myeclipseide.com/downloads/products/eworkbench/galileo/enterprise-stable/content.jar
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2021-01-22 11:13:55.766
+!MESSAGE Server returned lastModified <= 0 for http://downloads.myeclipseide.com/downloads/products/eworkbench/galileo/enterprise-stable/pulse/content.jar
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2021-01-22 11:13:59.597
+!MESSAGE Server returned lastModified <= 0 for http://downloads.myeclipseide.com/downloads/products/eworkbench/galileo/enterprise-stable/supporting/content.jar
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2021-01-22 11:14:13.560
+!MESSAGE Server returned lastModified <= 0 for http://downloads.myeclipseide.com/downloads/products/eworkbench/jdks/content.jar
+
+!ENTRY com.genuitec.eclipse.webdesigner3 4 0 2021-01-22 11:16:55.122
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.genuitec.eclipse.webdesigner3.dnd.ImageFileDropProcessor.getHtmlText(ImageFileDropProcessor.java:30)
+	at com.genuitec.eclipse.webdesigner3.dnd.FileDropAction.dropHtml(FileDropAction.java:52)
+	at com.genuitec.eclipse.webdesigner3.dnd.FileDropAction.drop(FileDropAction.java:75)
+	at com.genuitec.eclipse.webdesigner3.DOMCoordinator.syncSourceForDesignNodeInsertion(DOMCoordinator.java:945)
+	at com.genuitec.eclipse.webdesigner3.WebDesigner3.handleDesignNodeInserted(WebDesigner3.java:185)
+	at com.genuitec.eclipse.webdesigner3.design.DesignEditSystem.editorNodeInserted(DesignEditSystem.java:344)
+	at com.genuitec.eclipse.webdesigner3.design.MozillaEditor.handleDOMNodeInsertedEvent(MozillaEditor.java:232)
+	at com.genuitec.eclipse.webdesigner3.design.MozillaEditor.editorDOMNodeInserted(MozillaEditor.java:1297)
+	at com.genuitec.eclipse.webdesigner3.design.EditorDOMMutationAdapter.doDOMNodeInserted(EditorDOMMutationAdapter.java:279)
+	at com.genuitec.eclipse.webdesigner3.design.EditorDOMMutationAdapter.didInsertNode(EditorDOMMutationAdapter.java:274)
+	at org.mozilla.xpcom.internal.XPCOMJavaProxy.callXPCOMMethod(Native Method)
+	at org.mozilla.xpcom.internal.XPCOMJavaProxy.invoke(XPCOMJavaProxy.java:143)
+	at $Proxy29.paste(Unknown Source)
+	at com.genuitec.eclipse.webdesigner3.action.WebDesignerPasteAction.doEditorAction(WebDesignerPasteAction.java:16)
+	at com.genuitec.eclipse.webdesigner3.action.AbstractSourceDelegatingAction.run(AbstractSourceDelegatingAction.java:40)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:470)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:824)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:880)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:569)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:510)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:125)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:770)
+	at org.eclipse.swt.browser.Mozilla.HandleEvent(Mozilla.java:3791)
+	at org.eclipse.swt.browser.Mozilla$18.method3(Mozilla.java:1649)
+	at org.eclipse.swt.internal.mozilla.XPCOMObject.callback3(XPCOMObject.java:266)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2411)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3501)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.ui 4 4 2021-01-22 11:16:55.182
+!MESSAGE "Paste" did not complete normally.  Please see the log for more information.
+
+!ENTRY org.eclipse.ui 4 0 2021-01-22 11:16:55.190
+!MESSAGE The function "paste" returned an error condition  (0x80004005)
+!STACK 0
+org.mozilla.xpcom.XPCOMException: The function "paste" returned an error condition  (0x80004005)
+	at org.mozilla.xpcom.internal.XPCOMJavaProxy.callXPCOMMethod(Native Method)
+	at org.mozilla.xpcom.internal.XPCOMJavaProxy.invoke(XPCOMJavaProxy.java:143)
+	at $Proxy29.paste(Unknown Source)
+	at com.genuitec.eclipse.webdesigner3.action.WebDesignerPasteAction.doEditorAction(WebDesignerPasteAction.java:16)
+	at com.genuitec.eclipse.webdesigner3.action.AbstractSourceDelegatingAction.run(AbstractSourceDelegatingAction.java:40)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:470)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:824)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:880)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:569)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:510)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:125)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1002)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:770)
+	at org.eclipse.swt.browser.Mozilla.HandleEvent(Mozilla.java:3791)
+	at org.eclipse.swt.browser.Mozilla$18.method3(Mozilla.java:1649)
+	at org.eclipse.swt.internal.mozilla.XPCOMObject.callback3(XPCOMObject.java:266)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2411)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3501)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-01-22 11:39:21.028
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for TODO {key=Lcom/sun/xml/internal/bind/v2/TODO;} [in TODO.class [in com.sun.xml.internal.bind.v2 [in D:\MyEclipseWorkspese\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:86)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:996)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:512)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:495)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-01-22 11:39:21.028
+!MESSAGE Unknown javadoc format for TODO {key=Lcom/sun/xml/internal/bind/v2/TODO;} [in TODO.class [in com.sun.xml.internal.bind.v2 [in D:\MyEclipseWorkspese\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\rt.jar]]]
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 13:01:18.920
+!MESSAGE NLS unused message: UMLPlugin.requires_jre_linux_1_5_0 in: com.genuitec.eclipse.uml2.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 13:01:18.928
+!MESSAGE NLS unused message: UMLUtil_dialog_deleteWarning2_message in: com.genuitec.eclipse.uml2.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 13:01:18.933
+!MESSAGE NLS unused message: UMLPlugin.dialog_rename_warning_title in: com.genuitec.eclipse.uml2.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 13:01:18.939
+!MESSAGE NLS unused message: UMLEditor_dialog_read_only_file_title in: com.genuitec.eclipse.uml2.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 13:01:18.944
+!MESSAGE NLS unused message: UMLPlugin.requires_jre_windows_1_4_2 in: com.genuitec.eclipse.uml2.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 13:01:18.949
+!MESSAGE NLS unused message: UMLEditor_dialog_invalid_input_title in: com.genuitec.eclipse.uml2.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 13:01:18.954
+!MESSAGE NLS unused message: UMLPlugin.dialog_rename_warning_message in: com.genuitec.eclipse.uml2.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 13:01:18.959
+!MESSAGE NLS unused message: UMLEditor_dialog_incompatible_os_title in: com.genuitec.eclipse.uml2.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 13:01:18.965
+!MESSAGE NLS unused message: UMLEditor_dialog_invalid_input_message in: com.genuitec.eclipse.uml2.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 13:01:18.970
+!MESSAGE NLS unused message: UMLPlugin_error_invalid_os in: com.genuitec.eclipse.uml2.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 13:01:18.976
+!MESSAGE NLS unused message: NewUML2ModelWizard_dialog_error_title in: com.genuitec.eclipse.uml2.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 13:01:18.981
+!MESSAGE NLS unused message: NewUML2ModelWizard_dialog_error_message in: com.genuitec.eclipse.uml2.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 13:01:18.986
+!MESSAGE NLS unused message: NewDiagramAction.item_new_use_case_diagram in: com.genuitec.eclipse.uml2.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 13:01:18.991
+!MESSAGE NLS unused message: NewDiagramAction.item_new_sequence_diagram in: com.genuitec.eclipse.uml2.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 13:01:18.996
+!MESSAGE NLS unused message: NewDiagramAction.new_collaboration_diagram in: com.genuitec.eclipse.uml2.ui.messages
+!SESSION 2021-01-22 13:02:20.206 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-01-22 13:02:52.901
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2021-01-22 13:03:08.049
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-22 13:03:08.049
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@fee7c4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 13:03:13.673
+!MESSAGE NLS unused message: prompt.optclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 13:03:13.679
+!MESSAGE NLS unused message: prompt.preclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-22 13:03:13.687
+!MESSAGE NLS unused message: prompt.optlibrarypath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY com.genuitec.eclipse.core 1 0 2021-01-22 13:03:19.871
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 13:03:29.019
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 13:03:29.131
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 13:03:29.348
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 13:03:29.436
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 13:03:29.464
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 13:03:29.548
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 13:03:29.576
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 13:03:29.628
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 13:03:29.643
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 13:03:29.729
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2021-01-22 13:03:29.757
+!MESSAGE Installed snippet library: D:\Myeclipse\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2021-01-22 13:03:31.499
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.maven.ide.eclipse 4 0 2021-01-22 13:03:32.260
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Transfer for nexus-maven-repository-index.properties failed; Transfer failed: [501] http://repo1.maven.org/maven2/.index/nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:693)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.xml.core 4 4 2021-01-22 13:03:41.917
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.createCommentElement(XMLModelParser.java:707)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.insertComment(XMLModelParser.java:912)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.insertStructuredDocumentRegion(XMLModelParser.java:1459)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.replaceStructuredDocumentRegions(XMLModelParser.java:2287)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.internalSetNewDocument(DOMModelImpl.java:595)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.setStructuredDocument(DOMModelImpl.java:870)
+	at org.eclipse.wst.sse.core.internal.model.AbstractModelLoader.createModel(AbstractModelLoader.java:127)
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.getModel(FileBufferModelManager.java:721)
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.getModel(FileBufferModelManager.java:681)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl._doCommonGetModel(ModelManagerImpl.java:569)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl._commonGetModel(ModelManagerImpl.java:536)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl._commonGetModel(ModelManagerImpl.java:509)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.getModelForRead(ModelManagerImpl.java:1438)
+	at org.eclipse.wst.sse.core.internal.validate.ValidatorGroupListener.validationStarting(ValidatorGroupListener.java:72)
+	at org.eclipse.wst.validation.internal.ValManager$2.run(ValManager.java:880)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.validation.internal.ValManager.notifyGroupListenersStarting(ValManager.java:878)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:833)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:699)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:300)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:108)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:60)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:70)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:106)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:90)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:218)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:177)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:125)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 0 2021-01-22 13:03:48.273
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.IllegalArgumentException: Argument not valid Element type "a" must be followed by either attribute specifications, ">" or "/>".)
+	at org.eclipse.swt.SWT.error(SWT.java:3884)
+	at org.eclipse.swt.SWT.error(SWT.java:3799)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:137)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3885)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3506)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ui.internal.dialogs.WorkbenchPreferenceDialog.open(WorkbenchPreferenceDialog.java:211)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:65)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3910)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3503)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+Caused by: java.lang.IllegalArgumentException: Argument not valid Element type "a" must be followed by either attribute specifications, ">" or "/>".
+	at org.eclipse.swt.SWT.error(SWT.java:3865)
+	at org.eclipse.ui.internal.forms.widgets.FormTextModel.parseInputStream(FormTextModel.java:133)
+	at org.eclipse.ui.internal.forms.widgets.FormTextModel.parseTaggedText(FormTextModel.java:111)
+	at org.eclipse.ui.forms.widgets.FormText.setText(FormText.java:673)
+	at com.genuitec.pulse.client.contrib.ui.provisional.blueprint.RSSFeedSectionPart.showFeed(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.provisional.blueprint.RSSFeedSectionPart$2$1.run(Unknown Source)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:155)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:158)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	... 34 more
+
+!ENTRY org.eclipse.ui 4 0 2021-01-22 13:03:57.869
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid Element type "a" must be followed by either attribute specifications, ">" or "/>".
+	at org.eclipse.swt.SWT.error(SWT.java:3865)
+	at org.eclipse.ui.internal.forms.widgets.FormTextModel.parseInputStream(FormTextModel.java:133)
+	at org.eclipse.ui.internal.forms.widgets.FormTextModel.parseTaggedText(FormTextModel.java:111)
+	at org.eclipse.ui.forms.widgets.FormText.setText(FormText.java:673)
+	at com.genuitec.pulse.client.contrib.ui.provisional.blueprint.RSSFeedSectionPart.showFeed(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.provisional.blueprint.RSSFeedSectionPart$1.controlResized(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:222)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Control.sendResize(Control.java:2614)
+	at org.eclipse.swt.widgets.Composite.sendResize(Composite.java:850)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:899)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2742)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2738)
+	at com.genuitec.pulse.client.contrib.ui.sizzle.SizzleSection$SizzleLayout.layout(Unknown Source)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1145)
+	at org.eclipse.swt.widgets.Composite.sendResize(Composite.java:854)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:899)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2742)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2738)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:689)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:193)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1145)
+	at org.eclipse.swt.widgets.Composite.sendResize(Composite.java:854)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:899)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2742)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2738)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:689)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:193)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1145)
+	at org.eclipse.swt.widgets.Composite.sendResize(Composite.java:854)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:899)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2742)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2738)
+	at org.eclipse.ui.forms.widgets.SizeCache.setBounds(SizeCache.java:509)
+	at org.eclipse.ui.forms.widgets.Form$FormLayout.layout(Form.java:159)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1145)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1534)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4019)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2406)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:4751)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4029)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Widget.SetWindowPos(Widget.java:1316)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2781)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:893)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2742)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2738)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2805)
+	at org.eclipse.swt.custom.ScrolledCompositeLayout.layout(ScrolledCompositeLayout.java:109)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1145)
+	at org.eclipse.swt.widgets.Composite.layout(Composite.java:625)
+	at org.eclipse.swt.widgets.Composite.layout(Composite.java:583)
+	at org.eclipse.ui.forms.widgets.SharedScrolledComposite.layout(SharedScrolledComposite.java:144)
+	at org.eclipse.ui.forms.widgets.SharedScrolledComposite.reflow(SharedScrolledComposite.java:207)
+	at org.eclipse.ui.forms.widgets.SharedScrolledComposite.scheduleReflow(SharedScrolledComposite.java:234)
+	at org.eclipse.ui.forms.widgets.SharedScrolledComposite.access$1(SharedScrolledComposite.java:219)
+	at org.eclipse.ui.forms.widgets.SharedScrolledComposite$1.handleEvent(SharedScrolledComposite.java:65)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Control.WM_SIZE(Control.java:4594)
+	at org.eclipse.swt.widgets.Scrollable.WM_SIZE(Scrollable.java:285)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1523)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4019)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2406)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:4751)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4029)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4632)
+	at org.eclipse.swt.internal.win32.OS.EndDeferWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:823)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:789)
+	at org.eclipse.swt.widgets.Composite.setResizeChildren(Composite.java:1013)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1538)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4019)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2406)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:4751)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4029)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Widget.SetWindowPos(Widget.java:1316)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2781)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:893)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2742)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2738)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:201)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1145)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1534)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4019)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2406)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:4751)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4029)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Widget.SetWindowPos(Widget.java:1316)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2781)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:893)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2742)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2738)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:201)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1145)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1534)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4019)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2406)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:4751)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4029)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4632)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Widget.SetWindowPos(Widget.java:1316)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2781)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:893)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2742)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2738)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2805)
+	at org.eclipse.ui.internal.LayoutPart.setBounds(LayoutPart.java:300)
+	at org.eclipse.ui.internal.presentations.PresentablePart.setBounds(PresentablePart.java:170)
+	at org.eclipse.ui.internal.presentations.util.PresentablePartFolder.layoutContent(PresentablePartFolder.java:131)
+	at org.eclipse.ui.internal.presentations.util.PresentablePartFolder.layout(PresentablePartFolder.java:412)
+	at org.eclipse.ui.internal.presentations.util.PresentablePartFolder.setBounds(PresentablePartFolder.java:260)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation.setBounds(TabbedStackPresentation.java:231)
+	at org.eclipse.ui.internal.PartStack.setBounds(PartStack.java:1198)
+	at org.eclipse.ui.internal.LayoutTree.doSetBounds(LayoutTree.java:547)
+	at org.eclipse.ui.internal.LayoutTree.setBounds(LayoutTree.java:538)
+	at org.eclipse.ui.internal.LayoutTreeNode.doSetBounds(LayoutTreeNode.java:505)
+	at org.eclipse.ui.internal.LayoutTree.setBounds(LayoutTree.java:538)
+	at org.eclipse.ui.internal.LayoutTreeNode.doSetBounds(LayoutTreeNode.java:505)
+	at org.eclipse.ui.internal.LayoutTree.setBounds(LayoutTree.java:538)
+	at org.eclipse.ui.internal.LayoutTreeNode.doSetBounds(LayoutTreeNode.java:505)
+	at org.eclipse.ui.internal.LayoutTree.setBounds(LayoutTree.java:538)
+	at org.eclipse.ui.internal.PartSashContainer.resizeSashes(PartSashContainer.java:811)
+	at org.eclipse.ui.internal.PartSashContainer.flushLayout(PartSashContainer.java:753)
+	at org.eclipse.ui.internal.PartSashContainer.resizeChild(PartSashContainer.java:716)
+	at org.eclipse.ui.internal.PartSashContainer.replace(PartSashContainer.java:797)
+	at org.eclipse.ui.internal.ViewSashContainer.replace(ViewSashContainer.java:316)
+	at org.eclipse.ui.internal.PerspectiveHelper.removePart(PerspectiveHelper.java:1273)
+	at org.eclipse.ui.internal.Perspective.hideView(Perspective.java:603)
+	at org.eclipse.ui.internal.WorkbenchPage.hideView(WorkbenchPage.java:2381)
+	at org.eclipse.ui.internal.ViewPane.doHide(ViewPane.java:213)
+	at org.eclipse.ui.internal.PartStack.close(PartStack.java:543)
+	at org.eclipse.ui.internal.PartStack.close(PartStack.java:526)
+	at org.eclipse.ui.internal.PartStack$1.close(PartStack.java:122)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation$1.handleEvent(TabbedStackPresentation.java:83)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:270)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:279)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder.access$1(DefaultTabFolder.java:1)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder$1.closeButtonPressed(DefaultTabFolder.java:70)
+	at org.eclipse.ui.internal.presentations.PaneFolder.notifyCloseListeners(PaneFolder.java:626)
+	at org.eclipse.ui.internal.presentations.PaneFolder$3.close(PaneFolder.java:206)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:2199)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:327)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3910)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3503)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2021-01-22 13:08:58.363
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.updatesite.artifactRepository
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.getLocalRepositoryLocation(Unknown Source)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(Unknown Source)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at com.genuitec.pulse2.client.common.p2.P2Bridge.cacheRepositories(Unknown Source)
+	at com.genuitec.pulse2.client.services.update.PulseUpdateServices.processUpdateInformation(Unknown Source)
+	at com.genuitec.pulse2.client.services.update.PulseUpdateServices.getUpdateInformationForBlueprint(Unknown Source)
+	at com.genuitec.pulse2.client.services.internal.SpecificBlueprintUpdateServices.getUpdateInformation(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.SoftwareUpdatesService.getSoftwareUpdates(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges.calculateSoftwareUpdates(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges.calculateGroupContents(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges$CalculationJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2021-01-22 13:08:58.375
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.updatesite.artifactRepository
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.getLocalRepositoryLocation(Unknown Source)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(Unknown Source)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at com.genuitec.pulse2.client.common.p2.P2Bridge.cacheRepositories(Unknown Source)
+	at com.genuitec.pulse2.client.services.update.PulseUpdateServices.processUpdateInformation(Unknown Source)
+	at com.genuitec.pulse2.client.services.update.PulseUpdateServices.getUpdateInformationForBlueprint(Unknown Source)
+	at com.genuitec.pulse2.client.services.internal.SpecificBlueprintUpdateServices.getUpdateInformation(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.SoftwareUpdatesService.getSoftwareUpdates(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges.calculateSoftwareUpdates(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges.calculateGroupContents(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges$CalculationJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2021-01-22 13:08:58.386
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.updatesite.artifactRepository
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.getLocalRepositoryLocation(Unknown Source)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(Unknown Source)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at com.genuitec.pulse2.client.common.p2.P2Bridge.cacheRepositories(Unknown Source)
+	at com.genuitec.pulse2.client.services.update.PulseUpdateServices.processUpdateInformation(Unknown Source)
+	at com.genuitec.pulse2.client.services.update.PulseUpdateServices.getUpdateInformationForBlueprint(Unknown Source)
+	at com.genuitec.pulse2.client.services.internal.SpecificBlueprintUpdateServices.getUpdateInformation(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.SoftwareUpdatesService.getSoftwareUpdates(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges.calculateSoftwareUpdates(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges.calculateGroupContents(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges$CalculationJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2021-01-22 13:08:58.402
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.updatesite.artifactRepository
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.getLocalRepositoryLocation(Unknown Source)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(Unknown Source)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at com.genuitec.pulse2.client.common.p2.P2Bridge.cacheRepositories(Unknown Source)
+	at com.genuitec.pulse2.client.services.update.PulseUpdateServices.processUpdateInformation(Unknown Source)
+	at com.genuitec.pulse2.client.services.update.PulseUpdateServices.getUpdateInformationForBlueprint(Unknown Source)
+	at com.genuitec.pulse2.client.services.internal.SpecificBlueprintUpdateServices.getUpdateInformation(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.SoftwareUpdatesService.getSoftwareUpdates(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges.calculateSoftwareUpdates(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges.calculateGroupContents(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges$CalculationJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2021-01-22 13:08:58.417
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.updatesite.artifactRepository
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.getLocalRepositoryLocation(Unknown Source)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(Unknown Source)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at com.genuitec.pulse2.client.common.p2.P2Bridge.cacheRepositories(Unknown Source)
+	at com.genuitec.pulse2.client.services.update.PulseUpdateServices.processUpdateInformation(Unknown Source)
+	at com.genuitec.pulse2.client.services.update.PulseUpdateServices.getUpdateInformationForBlueprint(Unknown Source)
+	at com.genuitec.pulse2.client.services.internal.SpecificBlueprintUpdateServices.getUpdateInformation(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.SoftwareUpdatesService.getSoftwareUpdates(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges.calculateSoftwareUpdates(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges.calculateGroupContents(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges$CalculationJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2021-01-22 13:08:58.431
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.updatesite.artifactRepository
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.getLocalRepositoryLocation(Unknown Source)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(Unknown Source)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at com.genuitec.pulse2.client.common.p2.P2Bridge.cacheRepositories(Unknown Source)
+	at com.genuitec.pulse2.client.services.update.PulseUpdateServices.processUpdateInformation(Unknown Source)
+	at com.genuitec.pulse2.client.services.update.PulseUpdateServices.getUpdateInformationForBlueprint(Unknown Source)
+	at com.genuitec.pulse2.client.services.internal.SpecificBlueprintUpdateServices.getUpdateInformation(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.SoftwareUpdatesService.getSoftwareUpdates(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges.calculateSoftwareUpdates(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges.calculateGroupContents(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges$CalculationJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2021-01-22 13:08:58.464
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.updatesite.artifactRepository
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.getLocalRepositoryLocation(Unknown Source)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(Unknown Source)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at com.genuitec.pulse2.client.common.p2.P2Bridge.cacheRepositories(Unknown Source)
+	at com.genuitec.pulse2.client.services.update.PulseUpdateServices.processUpdateInformation(Unknown Source)
+	at com.genuitec.pulse2.client.services.update.PulseUpdateServices.getUpdateInformationForBlueprint(Unknown Source)
+	at com.genuitec.pulse2.client.services.internal.SpecificBlueprintUpdateServices.getUpdateInformation(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.SoftwareUpdatesService.getSoftwareUpdates(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges.calculateSoftwareUpdates(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges.calculateGroupContents(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges$CalculationJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2021-01-22 13:08:58.477
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.updatesite.artifactRepository
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.getLocalRepositoryLocation(Unknown Source)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.updatesite.artifact.UpdateSiteArtifactRepositoryFactory.load(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(Unknown Source)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at com.genuitec.pulse2.client.common.p2.P2Bridge.cacheRepositories(Unknown Source)
+	at com.genuitec.pulse2.client.services.update.PulseUpdateServices.processUpdateInformation(Unknown Source)
+	at com.genuitec.pulse2.client.services.update.PulseUpdateServices.getUpdateInformationForBlueprint(Unknown Source)
+	at com.genuitec.pulse2.client.services.internal.SpecificBlueprintUpdateServices.getUpdateInformation(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.SoftwareUpdatesService.getSoftwareUpdates(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges.calculateSoftwareUpdates(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges.calculateGroupContents(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges$CalculationJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-01-22 13:08:58.653
+!MESSAGE An internal error occurred during: "Accessing information".
+!STACK 0
+java.lang.NullPointerException
+	at com.genuitec.pulse2.client.services.update.PulseUpdateServices.getLooseRequiredCapabilities(Unknown Source)
+	at com.genuitec.pulse2.client.services.update.PulseUpdateServices.getCatalogSoftware(Unknown Source)
+	at com.genuitec.pulse2.client.services.update.PulseUpdateServices.processUpdateInformation(Unknown Source)
+	at com.genuitec.pulse2.client.services.update.PulseUpdateServices.getUpdateInformationForBlueprint(Unknown Source)
+	at com.genuitec.pulse2.client.services.internal.SpecificBlueprintUpdateServices.getUpdateInformation(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.SoftwareUpdatesService.getSoftwareUpdates(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges.calculateSoftwareUpdates(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges.calculateGroupContents(Unknown Source)
+	at com.genuitec.pulse.client.contrib.ui.blueprint.PendingChanges$CalculationJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2021-01-24 19:39:37.092 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2021-01-24 19:40:30.932
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-24 19:40:30.932
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@466f1d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-24 19:40:35.514
+!MESSAGE NLS unused message: prompt.optclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-24 19:40:35.523
+!MESSAGE NLS unused message: prompt.preclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-24 19:40:35.533
+!MESSAGE NLS unused message: prompt.optlibrarypath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.maven.ide.eclipse 4 0 2021-01-24 19:41:27.001
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Transfer for nexus-maven-repository-index.properties failed; Transfer failed: [501] http://repo1.maven.org/maven2/.index/nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:693)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2021-01-25 06:10:24.045 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2021-01-25 06:10:48.183
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-25 06:10:48.183
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@51dee1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-25 06:10:54.959
+!MESSAGE NLS unused message: prompt.optclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-25 06:10:54.966
+!MESSAGE NLS unused message: prompt.preclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-25 06:10:54.972
+!MESSAGE NLS unused message: prompt.optlibrarypath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 0 2021-01-25 06:10:57.560
+!MESSAGE While loading class "org.maven.ide.eclipse.internal.embedder.ArtifactTransferListenerAdapter", thread "Thread[Worker-7,5,main]" timed out waiting (5000ms) for thread "Thread[org.eclipse.jdt.internal.ui.text.JavaReconciler,1,main]" to finish starting bundle "org.maven.ide.eclipse_0.10.0.me201005202254 [986]". To avoid deadlock, thread "Thread[Worker-7,5,main]" is proceeding but "org.maven.ide.eclipse.internal.embedder.ArtifactTransferListenerAdapter" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/D:/MyEclipseWorkspese/plugins/org.maven.ide.eclipse_0.10.0.me201005202254.jar" by thread "org.eclipse.jdt.internal.ui.text.JavaReconciler".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.createArtifactTransferListener(MavenImpl.java:796)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.createExecutionRequest(MavenImpl.java:199)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerImpl.refresh(MavenProjectManagerImpl.java:343)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.run(MavenProjectManagerRefreshJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 18 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.createArtifactTransferListener(MavenImpl.java:796)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.createExecutionRequest(MavenImpl.java:199)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerImpl.refresh(MavenProjectManagerImpl.java:343)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.run(MavenProjectManagerRefreshJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2021-01-25 06:11:02.570
+!MESSAGE While loading class "org.maven.ide.eclipse.internal.project.DependencyResolutionContext", thread "Thread[Worker-7,5,main]" timed out waiting (5000ms) for thread "Thread[org.eclipse.jdt.internal.ui.text.JavaReconciler,1,main]" to finish starting bundle "org.maven.ide.eclipse_0.10.0.me201005202254 [986]". To avoid deadlock, thread "Thread[Worker-7,5,main]" is proceeding but "org.maven.ide.eclipse.internal.project.DependencyResolutionContext" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/D:/MyEclipseWorkspese/plugins/org.maven.ide.eclipse_0.10.0.me201005202254.jar" by thread "org.eclipse.jdt.internal.ui.text.JavaReconciler".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerImpl.refresh(MavenProjectManagerImpl.java:345)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.run(MavenProjectManagerRefreshJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 16 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerImpl.refresh(MavenProjectManagerImpl.java:345)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.run(MavenProjectManagerRefreshJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2021-01-25 06:11:08.071
+!MESSAGE While loading class "org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob$1", thread "Thread[Worker-9,5,main]" timed out waiting (5000ms) for thread "Thread[org.eclipse.jdt.internal.ui.text.JavaReconciler,1,main]" to finish starting bundle "org.maven.ide.eclipse_0.10.0.me201005202254 [986]". To avoid deadlock, thread "Thread[Worker-9,5,main]" is proceeding but "org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob$1" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/D:/MyEclipseWorkspese/plugins/org.maven.ide.eclipse_0.10.0.me201005202254.jar" by thread "org.eclipse.jdt.internal.ui.text.JavaReconciler".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.projectChanged(MavenProjectManagerRefreshJob.java:193)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.resourceChanged(MavenProjectManagerRefreshJob.java:152)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1809)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:4694)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$VMChanges.doit(LaunchingPlugin.java:255)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$JREUpdateJob.run(LaunchingPlugin.java:335)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 26 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.projectChanged(MavenProjectManagerRefreshJob.java:193)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.resourceChanged(MavenProjectManagerRefreshJob.java:152)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1809)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:4694)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$VMChanges.doit(LaunchingPlugin.java:255)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$JREUpdateJob.run(LaunchingPlugin.java:335)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.maven.ide.eclipse 4 0 2021-01-25 06:11:12.335
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Transfer for nexus-maven-repository-index.properties failed; Transfer failed: [501] http://repo1.maven.org/maven2/.index/nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:693)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-25 07:29:46.429
+!MESSAGE NLS unused message: ContentAssistProposal_label in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-25 07:29:46.438
+!MESSAGE NLS unused message: ContentAssistProposal_tooltip in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-25 07:29:46.444
+!MESSAGE NLS unused message: ContentAssistProposal_image in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-25 07:29:46.450
+!MESSAGE NLS unused message: ContentAssistProposal_description in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-25 07:29:46.455
+!MESSAGE NLS unused message: ContentAssistTip_label in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-25 07:29:46.461
+!MESSAGE NLS unused message: ContentAssistTip_tooltip in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-25 07:29:46.466
+!MESSAGE NLS unused message: ContentAssistTip_image in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-25 07:29:46.471
+!MESSAGE NLS unused message: ContentAssistTip_description in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-25 07:29:46.477
+!MESSAGE NLS unused message: ContentFormat_label in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-25 07:29:46.482
+!MESSAGE NLS unused message: ContentFormat_tooltip in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-25 07:29:46.487
+!MESSAGE NLS unused message: ContentFormat_image in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-25 07:29:46.492
+!MESSAGE NLS unused message: ContentFormat_description in: org.hibernate.eclipse.console.HibernateConsoleMessages
+!SESSION 2021-01-25 19:27:30.107 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2021-01-25 19:27:55.356
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-25 19:27:55.356
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@a80c67,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-25 19:27:57.780
+!MESSAGE NLS unused message: prompt.optclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-25 19:27:57.786
+!MESSAGE NLS unused message: prompt.preclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-25 19:27:57.791
+!MESSAGE NLS unused message: prompt.optlibrarypath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 0 2021-01-25 19:28:03.895
+!MESSAGE While loading class "org.maven.ide.eclipse.internal.embedder.ArtifactTransferListenerAdapter", thread "Thread[Worker-6,5,main]" timed out waiting (5000ms) for thread "Thread[org.eclipse.jdt.internal.ui.text.JavaReconciler,1,main]" to finish starting bundle "org.maven.ide.eclipse_0.10.0.me201005202254 [986]". To avoid deadlock, thread "Thread[Worker-6,5,main]" is proceeding but "org.maven.ide.eclipse.internal.embedder.ArtifactTransferListenerAdapter" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/D:/MyEclipseWorkspese/plugins/org.maven.ide.eclipse_0.10.0.me201005202254.jar" by thread "org.eclipse.jdt.internal.ui.text.JavaReconciler".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.createArtifactTransferListener(MavenImpl.java:796)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.createExecutionRequest(MavenImpl.java:199)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerImpl.refresh(MavenProjectManagerImpl.java:343)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.run(MavenProjectManagerRefreshJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 18 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.createArtifactTransferListener(MavenImpl.java:796)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.createExecutionRequest(MavenImpl.java:199)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerImpl.refresh(MavenProjectManagerImpl.java:343)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.run(MavenProjectManagerRefreshJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2021-01-25 19:28:08.906
+!MESSAGE While loading class "org.maven.ide.eclipse.internal.project.DependencyResolutionContext", thread "Thread[Worker-6,5,main]" timed out waiting (5000ms) for thread "Thread[org.eclipse.jdt.internal.ui.text.JavaReconciler,1,main]" to finish starting bundle "org.maven.ide.eclipse_0.10.0.me201005202254 [986]". To avoid deadlock, thread "Thread[Worker-6,5,main]" is proceeding but "org.maven.ide.eclipse.internal.project.DependencyResolutionContext" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/D:/MyEclipseWorkspese/plugins/org.maven.ide.eclipse_0.10.0.me201005202254.jar" by thread "org.eclipse.jdt.internal.ui.text.JavaReconciler".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerImpl.refresh(MavenProjectManagerImpl.java:345)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.run(MavenProjectManagerRefreshJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 16 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerImpl.refresh(MavenProjectManagerImpl.java:345)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.run(MavenProjectManagerRefreshJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2021-01-25 19:28:14.163
+!MESSAGE While loading class "org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob$1", thread "Thread[Worker-4,5,main]" timed out waiting (5000ms) for thread "Thread[org.eclipse.jdt.internal.ui.text.JavaReconciler,1,main]" to finish starting bundle "org.maven.ide.eclipse_0.10.0.me201005202254 [986]". To avoid deadlock, thread "Thread[Worker-4,5,main]" is proceeding but "org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob$1" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/D:/MyEclipseWorkspese/plugins/org.maven.ide.eclipse_0.10.0.me201005202254.jar" by thread "org.eclipse.jdt.internal.ui.text.JavaReconciler".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.projectChanged(MavenProjectManagerRefreshJob.java:193)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.resourceChanged(MavenProjectManagerRefreshJob.java:152)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1809)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:4694)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$VMChanges.doit(LaunchingPlugin.java:255)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$JREUpdateJob.run(LaunchingPlugin.java:335)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 26 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.projectChanged(MavenProjectManagerRefreshJob.java:193)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.resourceChanged(MavenProjectManagerRefreshJob.java:152)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1022)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1809)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:4694)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$VMChanges.doit(LaunchingPlugin.java:255)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$JREUpdateJob.run(LaunchingPlugin.java:335)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.maven.ide.eclipse 4 0 2021-01-25 19:29:26.544
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Transfer for nexus-maven-repository-index.properties failed; Transfer error: The server did not respond within the configured timeout.
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:693)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 0 2021-01-25 19:30:54.108
+!MESSAGE Warning: Detected recursive attempt by part com.genuitec.eclipse.webdesigner3.editors.jsp to create itself (this is probably, but not necessarily, a bug)
+!STACK 1
+org.eclipse.ui.PartInitException: Warning: Detected recursive attempt by part com.genuitec.eclipse.webdesigner3.editors.jsp to create itself (this is probably, but not necessarily, a bug)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:586)
+	at org.eclipse.ui.internal.PartPane.requestActivation(PartPane.java:263)
+	at org.eclipse.ui.internal.EditorPane.requestActivation(EditorPane.java:98)
+	at org.eclipse.ui.internal.presentations.PresentablePart.setFocus(PresentablePart.java:192)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation$1.handleEvent(TabbedStackPresentation.java:94)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:270)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:275)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.handleMouseDown(AbstractTabFolder.java:345)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder$3.mouseDown(AbstractTabFolder.java:79)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3910)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3503)
+	at com.genuitec.eclipse.webdesigner3.design.MozillaEditor$EventLoop.run(MozillaEditor.java:1359)
+	at com.genuitec.eclipse.webdesigner3.design.MozillaEditor$EventLoop.access$0(MozillaEditor.java:1352)
+	at com.genuitec.eclipse.webdesigner3.design.MozillaEditor.loadURL(MozillaEditor.java:1334)
+	at com.genuitec.eclipse.webdesigner3.design.DesignEditSystem.setEditorDocumentRoot(DesignEditSystem.java:111)
+	at com.genuitec.eclipse.webdesigner3.design.DesignEditSystem.synchronize(DesignEditSystem.java:186)
+	at com.genuitec.eclipse.webdesigner3.AbstractEditSystem.setSynchronized(AbstractEditSystem.java:24)
+	at com.genuitec.eclipse.webdesigner3.WebDesigner3.setSynchronized(WebDesigner3.java:113)
+	at com.genuitec.eclipse.webdesigner3.editors.WebDesignerMultiPageEditor.checkSynchronization(WebDesignerMultiPageEditor.java:1076)
+	at com.genuitec.eclipse.webdesigner3.editors.WebDesignerMultiPageEditor.access$7(WebDesignerMultiPageEditor.java:1072)
+	at com.genuitec.eclipse.webdesigner3.editors.WebDesignerMultiPageEditor$11.run(WebDesignerMultiPageEditor.java:1043)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at com.genuitec.eclipse.webdesigner3.editors.WebDesignerMultiPageEditor.designPageChange(WebDesignerMultiPageEditor.java:1041)
+	at com.genuitec.eclipse.webdesigner3.editors.WebDesignerMultiPageEditor.pageChange(WebDesignerMultiPageEditor.java:1012)
+	at org.eclipse.ui.part.MultiPageEditorPart.setActivePage(MultiPageEditorPart.java:1076)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:361)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:662)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:462)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.PartPane.setVisible(PartPane.java:313)
+	at org.eclipse.ui.internal.presentations.PresentablePart.setVisible(PresentablePart.java:180)
+	at org.eclipse.ui.internal.presentations.util.PresentablePartFolder.select(PresentablePartFolder.java:270)
+	at org.eclipse.ui.internal.presentations.util.LeftToRightTabOrder.select(LeftToRightTabOrder.java:65)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation.selectPart(TabbedStackPresentation.java:473)
+	at org.eclipse.ui.internal.PartStack.refreshPresentationSelection(PartStack.java:1256)
+	at org.eclipse.ui.internal.PartStack.setSelection(PartStack.java:1209)
+	at org.eclipse.ui.internal.PartStack.presentationSelectionChanged(PartStack.java:843)
+	at org.eclipse.ui.internal.PartStack.access$1(PartStack.java:829)
+	at org.eclipse.ui.internal.PartStack$1.selectPart(PartStack.java:139)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation$1.handleEvent(TabbedStackPresentation.java:133)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:270)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:279)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder.access$1(DefaultTabFolder.java:1)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder$2.handleEvent(DefaultTabFolder.java:87)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:770)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3256)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:2045)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:323)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3910)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3503)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+!SUBENTRY 1 org.eclipse.ui 4 0 2021-01-25 19:30:54.109
+!MESSAGE Warning: Detected recursive attempt by part com.genuitec.eclipse.webdesigner3.editors.jsp to create itself (this is probably, but not necessarily, a bug)
+!SESSION 2021-01-26 07:17:29.245 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2021-01-26 07:17:45.491
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-26 07:17:45.491
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@18e905,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-26 07:17:50.401
+!MESSAGE NLS unused message: prompt.optclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-26 07:17:50.408
+!MESSAGE NLS unused message: prompt.preclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2021-01-26 07:17:50.414
+!MESSAGE NLS unused message: prompt.optlibrarypath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 0 2021-01-26 07:17:54.374
+!MESSAGE While loading class "org.maven.ide.eclipse.internal.embedder.ArtifactTransferListenerAdapter", thread "Thread[Worker-6,5,main]" timed out waiting (5000ms) for thread "Thread[org.eclipse.jdt.internal.ui.text.JavaReconciler,1,main]" to finish starting bundle "org.maven.ide.eclipse_0.10.0.me201005202254 [986]". To avoid deadlock, thread "Thread[Worker-6,5,main]" is proceeding but "org.maven.ide.eclipse.internal.embedder.ArtifactTransferListenerAdapter" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/D:/MyEclipseWorkspese/plugins/org.maven.ide.eclipse_0.10.0.me201005202254.jar" by thread "org.eclipse.jdt.internal.ui.text.JavaReconciler".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.createArtifactTransferListener(MavenImpl.java:796)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.createExecutionRequest(MavenImpl.java:199)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerImpl.refresh(MavenProjectManagerImpl.java:343)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.run(MavenProjectManagerRefreshJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 18 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.createArtifactTransferListener(MavenImpl.java:796)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.createExecutionRequest(MavenImpl.java:199)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerImpl.refresh(MavenProjectManagerImpl.java:343)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.run(MavenProjectManagerRefreshJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2021-01-26 07:17:59.384
+!MESSAGE While loading class "org.maven.ide.eclipse.internal.project.DependencyResolutionContext", thread "Thread[Worker-6,5,main]" timed out waiting (5000ms) for thread "Thread[org.eclipse.jdt.internal.ui.text.JavaReconciler,1,main]" to finish starting bundle "org.maven.ide.eclipse_0.10.0.me201005202254 [986]". To avoid deadlock, thread "Thread[Worker-6,5,main]" is proceeding but "org.maven.ide.eclipse.internal.project.DependencyResolutionContext" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/D:/MyEclipseWorkspese/plugins/org.maven.ide.eclipse_0.10.0.me201005202254.jar" by thread "org.eclipse.jdt.internal.ui.text.JavaReconciler".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerImpl.refresh(MavenProjectManagerImpl.java:345)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.run(MavenProjectManagerRefreshJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 16 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerImpl.refresh(MavenProjectManagerImpl.java:345)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.run(MavenProjectManagerRefreshJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.maven.ide.eclipse 4 0 2021-01-26 07:18:03.528
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Transfer for nexus-maven-repository-index.properties failed; Transfer failed: [501] http://repo1.maven.org/maven2/.index/nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:693)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

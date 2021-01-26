@@ -1,0 +1,33 @@
+package com.company.entiy;
+
+public class Users {
+   private String sid;
+   private int sage;
+   private String saddress;
+   private String sname;
+   public String getSid() {
+	return sid;
+	}
+	public void setSid(String sid) {
+		this.sid = sid;
+	}
+	public int getSage() {
+		return sage;
+	}
+	public void setSage(int sage) {
+		this.sage = sage;
+	}
+	public String getSaddress() {
+		return saddress;
+	}
+	public void setSaddress(String saddress) {
+		this.saddress = saddress;
+	}
+	public String getSname() {
+		return sname;
+	}
+	public void setSname(String sname) {
+		this.sname = sname;
+	}
+ 
+}
